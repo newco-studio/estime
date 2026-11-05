@@ -68,7 +68,7 @@ window.SITE_CONFIG = {
 };
 ```
 
-Every Newco link (`data-ext="NEWCO_URL"`, with `data-ext-path` for a page such as `contact.html?topic=estime`) reads
+Every Newco link (`data-ext="NEWCO_URL"`, with `data-ext-path` for a page such as `contact.html`) reads
 it at load time and adds `?lang=` so the visitor keeps their language. Nothing else in this repository names the Newco
 site.
 
