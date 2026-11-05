@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estimé — L'analyse d'appels d'offres, de plusieurs jours à quelques heures</title>
-<meta name="description" content="Estimé analyse automatiquement les dossiers d'appels d'offres — plans, devis et documentation technique — : relevé, analyse du devis, prix et soumission. Un produit Newco Studio." data-i18n="content" data-content-en="Estimate automatically analyses tender packages — drawings, specifications and technical documents: takeoff, specification analysis, pricing and bid. A Newco Studio product.">
+<title>Estimé — L'analyse automatique des appels d'offres et de la documentation technique</title>
+<meta name="description" content="Estimé analyse automatiquement les dossiers d'appels d'offres et la documentation technique — plans, devis, documents techniques — pour préparer vos soumissions : de plusieurs jours à quelques heures. Un produit Newco Studio." data-i18n="content" data-content-en="Estimate automatically analyses tender packages and technical documentation — drawings, specifications, technical documents — to prepare your bids: from several days to a few hours. A Newco Studio product.">
 <meta name="theme-color" content="#101923">
 <meta name="color-scheme" content="dark">
 <link rel="icon" type="image/svg+xml" href="images/estime-icon.svg">
@@ -12,8 +12,8 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Estimé · Newco Studio">
-<meta property="og:title" content="Estimé — Vos soumissions, de plusieurs jours à quelques heures">
-<meta property="og:description" content="Relevé, analyse du devis, prix et soumission : Estimé analyse vos dossiers d'appels d'offres.">
+<meta property="og:title" content="Estimé — L'analyse automatique des appels d'offres">
+<meta property="og:description" content="Plans, devis et documentation technique analysés automatiquement : vos soumissions, de plusieurs jours à quelques heures.">
 <meta property="og:image" content="images/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -24,8 +24,8 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-lang="fr"
-  data-title-fr="Estimé — L'analyse d'appels d'offres, de plusieurs jours à quelques heures"
-  data-title-en="Estimate — Tender analysis, from several days to a few hours">
+  data-title-fr="Estimé — L'analyse automatique des appels d'offres et de la documentation technique"
+  data-title-en="Estimate — Automatic analysis of tender packages and technical documentation">
 <a class="skip" href="#main"><span class="fr">Aller au contenu</span><span class="en">Skip to content</span></a>
 
 <header class="nav">
@@ -33,8 +33,8 @@
     <a class="logo" href="index.html"><img src="images/estime-icon.svg" alt="" width="34" height="34"><span class="fr">Estimé<span class="p">.</span></span><span class="en">Estimate<span class="p">.</span></span></a>
     <nav class="nav-links" id="navLinks" aria-label="Principale" data-i18n="aria-label" data-aria-label-en="Main">
       <a href="#modules">Modules</a>
-      <a href="#knowledge"><span class="fr">Connaissances</span><span class="en">Knowledge</span></a>
-      <a href="#assistant"><span class="fr">Assistant</span><span class="en">Assistant</span></a>
+      <a href="#example"><span class="fr">Exemple</span><span class="en">Example</span></a>
+      <a href="#assistant">Assistant</a>
       <a href="#disciplines">Disciplines</a>
       <a href="#field"><span class="fr">Votre domaine</span><span class="en">Your field</span></a>
       <a href="#contact">Contact</a>
@@ -49,35 +49,53 @@
 
 <main id="main">
 
-<!-- HERO -->
+<!-- 1. HERO -->
 <section class="hero">
   <div class="wrap">
-    <div class="hero-top">
+    <div class="hero-grid">
       <div>
         <span class="chip"><span class="dot"></span><span class="fr">Analyse d'appels d'offres · par Newco Studio</span><span class="en">Tender analysis · by Newco Studio</span></span>
-        <h1><span class="fr">Vos soumissions, de plusieurs jours <span class="hl">à quelques heures.</span></span><span class="en">Your bids, from several days <span class="hl">to a few hours.</span></span></h1>
-      </div>
-      <div>
-        <p class="lead"><span class="fr">Estimé analyse automatiquement vos dossiers d'appels d'offres — plans, devis et documentation technique — pour vous aider à préparer vos soumissions. Vos experts supervisent chaque étape.</span><span class="en">Estimate automatically analyses your tender packages — drawings, specifications and technical documents — to help you prepare your bids. Your experts supervise every step.</span></p>
+        <h1><span class="fr">Vos soumissions,<br> de plusieurs jours <span class="hl">à quelques heures.</span></span><span class="en">Your bids,<br> from several days <span class="hl">to a few hours.</span></span></h1>
+        <p class="lead"><span class="fr">Estimé analyse automatiquement les dossiers d'appels d'offres et la documentation technique — plans, devis, documents techniques — pour vous aider à préparer vos soumissions.</span><span class="en">Estimate automatically analyses tender packages and technical documentation — drawings, specifications, technical documents — to help you prepare your bids.</span></p>
         <div class="actions">
           <a class="btn btn-primary" href="#video"><span class="fr">Voir la vidéo</span><span class="en">Watch the video</span></a>
           <a class="btn btn-ghost arrow" href="#contact"><span class="fr">Nous joindre</span><span class="en">Contact us</span></a>
         </div>
       </div>
+
+      <figure class="hv">
+        <div class="hv-k"><span class="fr">Le dossier d'appel d'offres</span><span class="en">The tender package</span></div>
+        <ul class="hv-docs">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 10h7v10M10.5 14h10"/></svg><span class="fr">Plans</span><span class="en">Drawings</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h9l3.5 3.5v13.5H6z"/><path d="M9 10h6.5M9 13.5h6.5M9 17h4"/></svg><span class="fr">Devis</span><span class="en">Specifications</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h6l2 2h8v11H4z"/><path d="M8 14h8"/></svg><span class="fr">Documentation technique</span><span class="en">Technical documents</span></li>
+        </ul>
+        <div class="hv-row">
+          <div class="hv-l"><span class="fr">Aujourd'hui</span><span class="en">Today</span></div>
+          <div class="hv-days" aria-hidden="true"><i><span class="fr">L</span><span class="en">M</span></i><i><span class="fr">M</span><span class="en">T</span></i><i><span class="fr">M</span><span class="en">W</span></i><i><span class="fr">J</span><span class="en">T</span></i><i><span class="fr">V</span><span class="en">F</span></i></div>
+          <b><span class="fr">Plusieurs jours</span><span class="en">Several days</span></b>
+        </div>
+        <div class="hv-row now">
+          <div class="hv-l"><span class="fr">Estimé</span><span class="en">Estimate</span></div>
+          <div class="hv-bar" aria-hidden="true"><span class="a"></span><span class="r"></span></div>
+          <b><span class="fr">Quelques heures</span><span class="en">A few hours</span></b>
+        </div>
+        <figcaption class="hv-key">
+          <span><i class="a"></i><span class="fr">Première analyse : 30 à 120 min</span><span class="en">First analysis: 30–120 min</span></span>
+          <span><i class="r"></i><span class="fr">Révision par vos experts</span><span class="en">Reviewed by your experts</span></span>
+        </figcaption>
+      </figure>
     </div>
-    <figure class="frame">
-      <img src="images/shots/workspace-dark-fr.webp" data-src-en="images/shots/workspace-dark-en.webp" data-i18n="src alt" width="1440" height="900" fetchpriority="high"
-        alt="L'espace de travail d'Estimé : le plan avec les tuyaux mesurés, les résultats par type et diamètre, l'assistant à gauche" data-alt-en="The Estimate workspace: the drawing with the measured pipes, the results by type and diameter, the assistant on the left">
-    </figure>
+
     <ul class="stats">
       <li class="stat"><b><span class="fr">30 à 120 min</span><span class="en">30–120 min</span></b><span class="fr">pour une première analyse</span><span class="en">for a first analysis</span></li>
       <li class="stat"><b>4 modules</b><span class="fr">relevé, devis, prix, soumission</span><span class="en">takeoff, specification, pricing, bid</span></li>
-      <li class="stat"><b><span class="fr">Tout cité</span><span class="en">All cited</span></b><span class="fr">un clic mène à la référence</span><span class="en">one click to the reference</span></li>
+      <li class="stat"><b><span class="fr">Vos experts</span><span class="en">Your experts</span></b><span class="fr">révisent et gardent le dernier mot</span><span class="en">review and keep the final say</span></li>
     </ul>
   </div>
 </section>
 
-<!-- VIDEO -->
+<!-- 2. VIDEO -->
 <section id="video" style="padding-top:24px">
   <div class="wrap">
     <div class="head center reveal">
@@ -86,7 +104,7 @@
     </div>
     <figure class="vid reveal" data-video-fr="videos/estime-fr.mp4" data-video-en="videos/estime-en.mp4">
       <video preload="none" playsinline controls width="1600" height="1000"
-        poster="images/shots/plan-measure-fr.webp" data-poster-en="images/shots/plan-measure-en.webp"
+        poster="images/shots/workspace-dark-fr.webp" data-poster-en="images/shots/workspace-dark-en.webp"
         aria-label="Vidéo explicative d'Estimé" data-aria-label-en="Estimate explainer video" data-i18n="poster aria-label">
         <source src="videos/estime-fr.mp4" type="video/mp4">
       </video>
@@ -99,26 +117,74 @@
   </div>
 </section>
 
-<!-- MODULES -->
-<section id="modules" class="modules">
+<!-- 3. HOW IT WORKS: four modules on a knowledge base -->
+<section id="modules" class="band">
   <div class="wrap">
     <div class="head reveal">
-      <div class="kicker"><span class="fr">Quatre modules</span><span class="en">Four modules</span></div>
-      <h2><span class="fr">Le travail de plusieurs jours, en quatre modules.</span><span class="en">Several days of work, in four modules.</span></h2>
-      <p class="lead"><span class="fr">Lire chaque document, relever les quantités, vérifier les exigences, puis tout chiffrer : Estimé le fait, vous révisez.</span><span class="en">Reading every document, taking off quantities, checking requirements, then pricing it all: Estimate does it, you review.</span></p>
+      <div class="kicker"><span class="fr">Comment ça marche</span><span class="en">How it works</span></div>
+      <h2><span class="fr">Quatre modules. Une base qui apprend.</span><span class="en">Four modules. A base that learns.</span></h2>
+      <p class="lead"><span class="fr">Lire chaque document, relever les quantités, vérifier les exigences, puis tout chiffrer : Estimé fait ce travail, vous révisez.</span><span class="en">Reading every document, taking off quantities, checking requirements, then pricing it all: Estimate does this work, you review.</span></p>
+    </div>
+
+    <div class="stack reveal">
+      <ol class="mods">
+        <li>
+          <div class="mi"><i>1</i><span class="fr">Relevé</span><span class="en">Takeoff</span></div>
+          <h3><span class="fr">Mesurer et compter</span><span class="en">Measure and count</span></h3>
+          <p><span class="fr">Chaque longueur mesurée, chaque élément compté, page par page, tracé sur le plan.</span><span class="en">Every length measured, every item counted, page by page, drawn on the plan.</span></p>
+        </li>
+        <li>
+          <div class="mi"><i>2</i><span class="fr">Devis</span><span class="en">Specification</span></div>
+          <h3><span class="fr">Tout est lu et cité</span><span class="en">Everything read and cited</span></h3>
+          <p><span class="fr">Un clic mène à la référence. Il relève aussi :</span><span class="en">One click to the reference. It also finds:</span></p>
+          <ul class="dots">
+            <li><span class="fr">les éléments non dessinés</span><span class="en">undrawn items</span></li>
+            <li><span class="fr">les clauses à risque financier</span><span class="en">financial-risk clauses</span></li>
+            <li><span class="fr">les contradictions plans / devis</span><span class="en">drawing / spec contradictions</span></li>
+            <li><span class="fr">les questions à poser</span><span class="en">the questions to ask</span></li>
+          </ul>
+        </li>
+        <li>
+          <div class="mi"><i>3</i><span class="fr">Prix</span><span class="en">Pricing</span></div>
+          <h3><span class="fr">Chiffrer la nomenclature</span><span class="en">Price the bill of materials</span></h3>
+          <p><span class="fr">Matériaux, raccords, appareils et main-d'œuvre, à vos taux et avec vos facteurs de majoration : bâtiment en exploitation, frais de chantier.</span><span class="en">Materials, fittings, fixtures and labour, at your rates and with your markup factors: occupied building, site costs.</span></p>
+        </li>
+        <li>
+          <div class="mi"><i>4</i><span class="fr">Soumission</span><span class="en">Bid</span></div>
+          <h3><span class="fr">Prix, décision, documents</span><span class="en">Price, decision, documents</span></h3>
+          <p><span class="fr">Un prix complet, une recommandation, et les documents prêts à envoyer.</span><span class="en">A complete price, a recommendation, and documents ready to send.</span></p>
+        </li>
+      </ol>
+      <div class="base">
+        <span class="bi" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7.5" ry="2.8"/><path d="M4.5 6v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8V6M4.5 12v6c0 1.5 3.4 2.8 7.5 2.8s7.5-1.3 7.5-2.8v-6"/></svg></span>
+        <b><span class="fr">Base de connaissances</span><span class="en">Knowledge base</span></b>
+        <span><span class="fr">évolue avec votre domaine</span><span class="en">evolves with your field</span></span>
+      </div>
+      <div class="base experts">
+        <span class="bi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M17.5 4.5l.8 1.9 1.9.8-1.9.8-.8 1.9-.8-1.9-1.9-.8 1.9-.8z"/></svg></span>
+        <b><span class="fr">Vos experts métier, amplifiés par l'IA</span><span class="en">Your experts, amplified by AI</span></b>
+        <span><span class="fr">supervisent chaque étape</span><span class="en">supervise every step</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. WORKED EXAMPLE: PLUMBING -->
+<section id="example" class="modules">
+  <div class="wrap">
+    <div class="head reveal">
+      <div class="kicker"><span class="fr">Exemple · Plomberie</span><span class="en">Example · Plumbing</span></div>
+      <h2><span class="fr">Prenons la plomberie, en construction.</span><span class="en">Take plumbing, in construction.</span></h2>
+      <p class="lead"><span class="fr">Personne ne trace les tuyaux à la main : Estimé lit les plans lui-même. La première analyse est prête en 30 à 120 minutes.</span><span class="en">Nobody traces pipes by hand: Estimate reads the drawings itself. The first analysis is ready in 30 to 120 minutes.</span></p>
+      <p class="avail"><span class="chip ok"><span class="fr">Disponible aujourd'hui</span><span class="en">Available today</span></span><span class="fr">Captures réelles d'Estimé, noms remplacés.</span><span class="en">Real Estimate screenshots, names replaced.</span></p>
     </div>
 
     <!-- Module 1 -->
     <article class="module reveal">
       <div>
-        <div class="num"><i>1</i><span class="fr">Relevé</span><span class="en">Takeoff</span></div>
-        <h3><span class="fr">Mesurer et compter, page par page.</span><span class="en">Measure and count, page by page.</span></h3>
-        <p><span class="fr">Personne ne trace les tuyaux à la main : Estimé lit les plans lui-même.</span><span class="en">Nobody traces pipes by hand: Estimate reads the drawings itself.</span></p>
-        <ul class="checks">
-          <li><span class="fr">Chaque tuyau mesuré par type, puis par diamètre, tracé sur le plan</span><span class="en">Every pipe measured by type, then diameter, drawn on the plan</span></li>
-          <li><span class="fr">Chaque appareil de la légende compté, page par page et vue par vue</span><span class="en">Every legend item counted, page by page and view by view</span></li>
-          <li><span class="fr">Vous corrigez sur le plan ou avec l'assistant</span><span class="en">You correct on the drawing or with the assistant</span></li>
-        </ul>
+        <div class="num"><i>1</i><span class="fr">Relevé</span><span class="en">Takeoff</span><span class="ex"><span class="fr">Plomberie</span><span class="en">Plumbing</span></span></div>
+        <h3><span class="fr">Mesuré et compté, page par page.</span><span class="en">Measured and counted, page by page.</span></h3>
+        <p><span class="fr">Chaque tuyau mesuré par type et par diamètre, chaque appareil de la légende compté, tracés sur le plan. Vous corrigez sur le plan ou avec l'assistant.</span><span class="en">Every pipe measured by type and diameter, every legend fixture counted, drawn on the plan. You correct on the drawing or with the assistant.</span></p>
       </div>
       <div class="viewer">
         <div class="tabs" role="tablist" aria-label="Captures du relevé" data-i18n="aria-label" data-aria-label-en="Takeoff screenshots">
@@ -126,10 +192,10 @@
           <button role="tab" id="t-m1b" aria-controls="p-m1b" aria-selected="false" tabindex="-1"><span class="fr">Comptage</span><span class="en">Count</span></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m1a" aria-labelledby="t-m1a">
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/plan-measure-fr.webp" data-src-en="images/shots/plan-measure-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Relevé : les longueurs de tuyaux par type et diamètre sur un plan de plomberie" data-alt-en="Takeoff: pipe lengths by type and diameter on a plumbing drawing"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/plan-measure-fr.webp" data-src-en="images/shots/plan-measure-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, relevé : les longueurs de tuyaux par type et diamètre sur le plan" data-alt-en="Plumbing example, takeoff: pipe lengths by type and diameter on the drawing"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m1b" aria-labelledby="t-m1b" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/plan-count-fr.webp" data-src-en="images/shots/plan-count-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Comptage : les appareils de la légende comptés sur le plan" data-alt-en="Count: the legend items counted on the drawing"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/plan-count-fr.webp" data-src-en="images/shots/plan-count-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, comptage : les appareils de la légende comptés sur le plan" data-alt-en="Plumbing example, count: the legend fixtures counted on the drawing"></button>
         </div>
       </div>
     </article>
@@ -137,15 +203,9 @@
     <!-- Module 2 -->
     <article class="module reveal">
       <div>
-        <div class="num"><i>2</i><span class="fr">Analyse du devis</span><span class="en">Specification analysis</span></div>
-        <h3><span class="fr">Tout est lu, tout est cité.</span><span class="en">Everything read, everything cited.</span></h3>
-        <p><span class="fr">Un clic vous amène à la référence, dans le document. Estimé relève aussi :</span><span class="en">One click takes you to the reference, in the document. Estimate also finds:</span></p>
-        <ul class="checks">
-          <li><span class="fr">ce que les plans ne montrent pas</span><span class="en">what the drawings don't show</span></li>
-          <li><span class="fr">les clauses à risque financier</span><span class="en">clauses that carry financial risk</span></li>
-          <li><span class="fr">les contradictions entre plans et devis</span><span class="en">contradictions between drawings and specification</span></li>
-          <li><span class="fr">les questions à poser</span><span class="en">the questions to ask</span></li>
-        </ul>
+        <div class="num"><i>2</i><span class="fr">Devis</span><span class="en">Specification</span><span class="ex"><span class="fr">Plomberie</span><span class="en">Plumbing</span></span></div>
+        <h3><span class="fr">Tout est lu et cité.</span><span class="en">Everything read and cited.</span></h3>
+        <p><span class="fr">Un clic vous amène à la référence, dans le document. Et ce que les plans ne disent pas : éléments non dessinés, risques, contradictions, questions.</span><span class="en">One click takes you to the reference, in the document. And what the drawings don't say: undrawn items, risks, contradictions, questions.</span></p>
       </div>
       <div class="viewer">
         <div class="tabs" role="tablist" aria-label="Captures de l'analyse du devis" data-i18n="aria-label" data-aria-label-en="Specification analysis screenshots">
@@ -156,19 +216,19 @@
           <button role="tab" id="t-m2e" aria-controls="p-m2e" aria-selected="false" tabindex="-1">Questions</button>
         </div>
         <div class="panel" role="tabpanel" id="p-m2a" aria-labelledby="t-m2a">
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-fixtures-fr.webp" data-src-en="images/shots/spec-fixtures-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Devis : les appareils exigés, chacun cité à sa page" data-alt-en="Specification: the required fixtures, each cited to its page"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-fixtures-fr.webp" data-src-en="images/shots/spec-fixtures-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, devis : les appareils exigés, chacun cité à sa page" data-alt-en="Plumbing example, specification: the required fixtures, each cited to its page"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m2b" aria-labelledby="t-m2b" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-undrawn-fr.webp" data-src-en="images/shots/spec-undrawn-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Devis : les éléments exigés mais non dessinés sur les plans" data-alt-en="Specification: items required but not drawn"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-undrawn-fr.webp" data-src-en="images/shots/spec-undrawn-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, devis : les éléments exigés mais non dessinés sur les plans" data-alt-en="Plumbing example, specification: items required but not drawn"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m2c" aria-labelledby="t-m2c" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-risks-fr.webp" data-src-en="images/shots/spec-risks-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Devis : les clauses à risque financier, classées par gravité" data-alt-en="Specification: clauses carrying financial risk, ranked by severity"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-risks-fr.webp" data-src-en="images/shots/spec-risks-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, devis : les clauses à risque financier, classées par gravité" data-alt-en="Plumbing example, specification: clauses carrying financial risk, ranked by severity"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m2d" aria-labelledby="t-m2d" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-conflicts-fr.webp" data-src-en="images/shots/spec-conflicts-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Devis : les contradictions entre les plans et le devis" data-alt-en="Specification: contradictions between drawings and specification"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-conflicts-fr.webp" data-src-en="images/shots/spec-conflicts-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, devis : les contradictions entre les plans et le devis" data-alt-en="Plumbing example, specification: contradictions between drawings and specification"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m2e" aria-labelledby="t-m2e" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-questions-fr.webp" data-src-en="images/shots/spec-questions-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Devis : les questions à poser avant de soumissionner" data-alt-en="Specification: the questions to ask before bidding"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/spec-questions-fr.webp" data-src-en="images/shots/spec-questions-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, devis : les questions à poser avant de soumissionner" data-alt-en="Plumbing example, specification: the questions to ask before bidding"></button>
         </div>
       </div>
     </article>
@@ -176,38 +236,32 @@
     <!-- Module 3 -->
     <article class="module reveal">
       <div>
-        <div class="num"><i>3</i><span class="fr">Prix</span><span class="en">Pricing</span></div>
-        <h3><span class="fr">Votre nomenclature, chiffrée à vos taux.</span><span class="en">Your bill of materials, priced at your rates.</span></h3>
-        <p><span class="fr">Des listes de prix que vous gardez à jour, et qui suivent le marché.</span><span class="en">Price lists you keep up to date, that follow the market.</span></p>
-        <ul class="checks">
-          <li><span class="fr">Tuyaux, raccords et appareils</span><span class="en">Pipes, fittings and fixtures</span></li>
-          <li><span class="fr">Main-d'œuvre : taux horaires et productivité</span><span class="en">Labour: hourly rates and productivity</span></li>
-          <li><span class="fr">Facteurs de majoration, comme un bâtiment en exploitation</span><span class="en">Markup factors, such as an occupied building</span></li>
-          <li><span class="fr">Frais de chantier, frais généraux et profit</span><span class="en">Site costs, overhead and profit</span></li>
-        </ul>
+        <div class="num"><i>3</i><span class="fr">Prix</span><span class="en">Pricing</span><span class="ex"><span class="fr">Plomberie</span><span class="en">Plumbing</span></span></div>
+        <h3><span class="fr">Votre liste de prix. Vos règles.</span><span class="en">Your price list. Your rules.</span></h3>
+        <p><span class="fr">La nomenclature chiffrée — tuyaux, raccords, appareils et main-d'œuvre — avec vos taux et vos facteurs de majoration, comme un bâtiment en exploitation ou les frais de chantier.</span><span class="en">The bill of materials priced — pipes, fittings, fixtures and labour — with your rates and your markup factors, such as an occupied building or site costs.</span></p>
       </div>
       <div class="viewer">
         <div class="tabs" role="tablist" aria-label="Captures des listes de prix" data-i18n="aria-label" data-aria-label-en="Price list screenshots">
           <button role="tab" id="t-m3a" aria-controls="p-m3a" aria-selected="true"><span class="fr">Matériaux</span><span class="en">Materials</span></button>
           <button role="tab" id="t-m3b" aria-controls="p-m3b" aria-selected="false" tabindex="-1"><span class="fr">Appareils</span><span class="en">Fixtures</span></button>
           <button role="tab" id="t-m3c" aria-controls="p-m3c" aria-selected="false" tabindex="-1"><span class="fr">Main-d'œuvre</span><span class="en">Labour</span></button>
-          <button role="tab" id="t-m3d" aria-controls="p-m3d" aria-selected="false" tabindex="-1"><span class="fr">Multiplicateurs</span><span class="en">Multipliers</span></button>
+          <button role="tab" id="t-m3d" aria-controls="p-m3d" aria-selected="false" tabindex="-1"><span class="fr">Majorations</span><span class="en">Markups</span></button>
           <button role="tab" id="t-m3e" aria-controls="p-m3e" aria-selected="false" tabindex="-1"><span class="fr">Chantier</span><span class="en">Site</span></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m3a" aria-labelledby="t-m3a">
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-materials-fr.webp" data-src-en="images/shots/prices-materials-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Listes de prix : les matériaux par diamètre, avec leur source" data-alt-en="Price lists: materials by diameter, with their source"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-materials-fr.webp" data-src-en="images/shots/prices-materials-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, prix : les matériaux par diamètre, avec leur source" data-alt-en="Plumbing example, pricing: materials by diameter, with their source"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m3b" aria-labelledby="t-m3b" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-items-fr.webp" data-src-en="images/shots/prices-items-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Listes de prix : les appareils sanitaires" data-alt-en="Price lists: plumbing fixtures"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-items-fr.webp" data-src-en="images/shots/prices-items-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, prix : les appareils sanitaires" data-alt-en="Plumbing example, pricing: plumbing fixtures"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m3c" aria-labelledby="t-m3c" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-labour-fr.webp" data-src-en="images/shots/prices-labour-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Listes de prix : les taux horaires de la main-d'œuvre" data-alt-en="Price lists: labour hourly rates"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-labour-fr.webp" data-src-en="images/shots/prices-labour-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, prix : les taux horaires de la main-d'œuvre" data-alt-en="Plumbing example, pricing: labour hourly rates"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m3d" aria-labelledby="t-m3d" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-multipliers-fr.webp" data-src-en="images/shots/prices-multipliers-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Listes de prix : les multiplicateurs de conditions de chantier, comme un bâtiment occupé" data-alt-en="Price lists: site-condition multipliers, such as an occupied building"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-multipliers-fr.webp" data-src-en="images/shots/prices-multipliers-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, prix : les facteurs de majoration, comme un bâtiment en exploitation" data-alt-en="Plumbing example, pricing: markup factors, such as an occupied building"></button>
         </div>
         <div class="panel" role="tabpanel" id="p-m3e" aria-labelledby="t-m3e" hidden>
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-site-fr.webp" data-src-en="images/shots/prices-site-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Listes de prix : les frais de chantier" data-alt-en="Price lists: site costs"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/prices-site-fr.webp" data-src-en="images/shots/prices-site-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="Exemple plomberie, prix : les frais de chantier" data-alt-en="Plumbing example, pricing: site costs"></button>
         </div>
       </div>
     </article>
@@ -215,18 +269,13 @@
     <!-- Module 4 -->
     <article class="module reveal">
       <div>
-        <div class="num"><i>4</i><span class="fr">Soumission</span><span class="en">Bid</span></div>
-        <h3><span class="fr">Un prix complet, prêt à envoyer.</span><span class="en">A complete price, ready to send.</span></h3>
-        <p><span class="fr">Du coût direct au prix avec taxes, avec une recommandation claire.</span><span class="en">From direct cost to the price with taxes, with a clear recommendation.</span></p>
-        <ul class="checks">
-          <li><span class="fr">Le prix de soumission complet, ligne par ligne</span><span class="en">The complete bid price, line by line</span></li>
-          <li><span class="fr">Une recommandation : soumissionner ou non, et à quelles conditions</span><span class="en">A recommendation: bid or not, and on what terms</span></li>
-          <li><span class="fr">Les documents prêts à envoyer : lettre de soumission, Excel, PDF annoté</span><span class="en">Documents ready to send: bid letter, Excel, annotated PDF</span></li>
-        </ul>
+        <div class="num"><i>4</i><span class="fr">Soumission</span><span class="en">Bid</span><span class="ex"><span class="fr">Plomberie</span><span class="en">Plumbing</span></span></div>
+        <h3><span class="fr">Prête à envoyer.</span><span class="en">Ready to send.</span></h3>
+        <p><span class="fr">Un prix complet, du coût direct aux taxes, une recommandation, et les documents prêts à envoyer : lettre de soumission, classeur Excel, plans annotés en PDF.</span><span class="en">A complete price, from direct cost to taxes, a recommendation, and documents ready to send: bid letter, Excel workbook, annotated PDF drawings.</span></p>
       </div>
       <div class="viewer">
         <div class="panel">
-          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/bid-fr.webp" data-src-en="images/shots/bid-en.webp" data-i18n="src alt" loading="lazy" width="1440" height="900" alt="Soumission : le sommaire du prix, du coût direct aux taxes, et la recommandation" data-alt-en="Bid: the price summary, from direct cost to taxes, and the recommendation"></button>
+          <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/bid-fr.webp" data-src-en="images/shots/bid-en.webp" data-i18n="src alt" loading="lazy" width="1440" height="900" alt="Exemple plomberie, soumission : le sommaire du prix, du coût direct aux taxes, et la recommandation" data-alt-en="Plumbing example, bid: the price summary, from direct cost to taxes, and the recommendation"></button>
           <p><span class="fr">Données de démonstration fictives.</span><span class="en">Fictitious demo data.</span></p>
         </div>
       </div>
@@ -234,51 +283,54 @@
   </div>
 </section>
 
-<!-- KNOWLEDGE + EXPERTS -->
-<section id="knowledge">
-  <div class="wrap split">
-    <div class="reveal">
-      <div class="kicker"><span class="fr">Base de connaissances</span><span class="en">Knowledge base</span></div>
-      <h2><span class="fr">Vos experts gardent le dernier mot.</span><span class="en">Your experts keep the final say.</span></h2>
-      <p class="lead" style="margin:14px 0 22px"><span class="fr">Amplifiés par l'IA, vos experts supervisent chaque étape. La base de connaissances apprend et s'adapte à votre domaine.</span><span class="en">Amplified by AI, your experts supervise every step. The knowledge base learns and adapts to your field.</span></p>
-      <ul class="checks">
-        <li><span class="fr">Chaque correction devient une leçon, approuvée par une personne avant de servir</span><span class="en">Every correction becomes a lesson, approved by a person before it is used</span></li>
-        <li><span class="fr">La méthode, vos règles et vos façons de faire, en français et en anglais</span><span class="en">The method, your rules and your ways of working, in French and English</span></li>
-        <li><span class="fr">Les prix suivent le marché, vos experts les confirment</span><span class="en">Prices follow the market, your experts confirm them</span></li>
-      </ul>
-    </div>
-    <figure class="frame reveal">
-      <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/kb-method-fr.webp" data-src-en="images/shots/kb-method-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="La base de connaissances : la méthode de relevé et les apprentissages récents" data-alt-en="The knowledge base: the takeoff method and recent learnings"></button>
-    </figure>
-  </div>
-</section>
-
-<!-- ASSISTANT -->
+<!-- 5. ASSISTANT -->
 <section id="assistant" class="band">
   <div class="wrap split rev">
     <div class="reveal">
       <div class="kicker">Assistant</div>
-      <h2><span class="fr">Un assistant qui sait où vous êtes.</span><span class="en">An assistant that knows where you are.</span></h2>
-      <p class="lead" style="margin:14px 0 22px"><span class="fr">Il comprend ce que vous faites et dans quel dossier. Il vous aide à naviguer, peut piloter l'écran pour vous et vous accompagne.</span><span class="en">It understands what you are doing and in which file. It helps you navigate, can drive the screen for you and works alongside you.</span></p>
+      <h2><span class="fr">Il vous accompagne.</span><span class="en">It works alongside you.</span></h2>
+      <p class="lead" style="margin:14px 0 22px"><span class="fr">L'assistant comprend ce que vous faites et dans quel dossier.</span><span class="en">The assistant understands what you are doing and in which file.</span></p>
       <ul class="checks">
-        <li><span class="fr">Par écrit ou de vive voix</span><span class="en">In writing or by voice</span></li>
-        <li><span class="fr">Il ouvre la bonne page, zoome sur le plan, surligne le passage</span><span class="en">It opens the right page, zooms on the drawing, highlights the passage</span></li>
-        <li><span class="fr">Il explique, corrige et répond, dans les limites de vos droits</span><span class="en">It explains, corrects and answers, within your rights</span></li>
+        <li><span class="fr">Il vous aide à naviguer : la bonne page, le bon passage</span><span class="en">It helps you navigate: the right page, the right passage</span></li>
+        <li><span class="fr">Il peut piloter l'écran pour vous</span><span class="en">It can drive the screen for you</span></li>
+        <li><span class="fr">Il explique et corrige, par écrit ou de vive voix</span><span class="en">It explains and corrects, in writing or by voice</span></li>
       </ul>
     </div>
     <figure class="frame reveal">
       <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/plan-assistant-fr.webp" data-src-en="images/shots/plan-assistant-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="L'assistant d'Estimé explique le chiffrage des raccords à côté du plan et des résultats" data-alt-en="The Estimate assistant explains fitting pricing next to the drawing and the results"></button>
+      <figcaption><span class="fr">Exemple plomberie.</span><span class="en">Plumbing example.</span></figcaption>
     </figure>
   </div>
 </section>
 
-<!-- DISCIPLINES -->
-<section id="disciplines">
+<!-- 6. EXPERTS + KNOWLEDGE BASE -->
+<section id="experts">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="kicker"><span class="fr">Vos experts</span><span class="en">Your experts</span></div>
+      <h2><span class="fr">Le dernier mot vous revient.</span><span class="en">You keep the final say.</span></h2>
+      <p class="lead" style="margin:14px 0 22px"><span class="fr">Chaque correction enrichit la base de connaissances, qui suit aussi le marché.</span><span class="en">Every correction enriches the knowledge base, which also follows the market.</span></p>
+      <ol class="loop" aria-label="Le cycle d'apprentissage" data-i18n="aria-label" data-aria-label-en="The learning loop">
+        <li><span class="fr">Correction</span><span class="en">Correction</span></li>
+        <li><span class="fr">Leçon</span><span class="en">Lesson</span></li>
+        <li class="kb"><span class="fr">Base de connaissances</span><span class="en">Knowledge base</span></li>
+      </ol>
+      <p class="loop-note"><span class="chip"><span class="dot"></span><span class="fr">Suit le marché</span><span class="en">Follows the market</span></span><span class="fr">Chaque leçon est approuvée par une personne avant de servir.</span><span class="en">Every lesson is approved by a person before it is used.</span></p>
+    </div>
+    <figure class="frame reveal">
+      <button class="zoom" type="button" aria-label="Agrandir la capture" data-i18n="aria-label" data-aria-label-en="Enlarge the screenshot"><img src="images/shots/kb-method-fr.webp" data-src-en="images/shots/kb-method-en.webp" data-i18n="src alt" loading="lazy" width="1600" height="1000" alt="La base de connaissances : la méthode de relevé et les apprentissages récents" data-alt-en="The knowledge base: the takeoff method and recent learnings"></button>
+      <figcaption><span class="fr">La base de connaissances : la méthode et les apprentissages récents (exemple plomberie).</span><span class="en">The knowledge base: the method and recent learnings (plumbing example).</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 7. OTHER TRADES -->
+<section id="disciplines" class="band">
   <div class="wrap">
     <div class="head reveal">
-      <div class="kicker">Disciplines</div>
-      <h2><span class="fr">La plomberie d'abord. Les autres corps de métier ensuite.</span><span class="en">Plumbing first. The other trades next.</span></h2>
-      <p class="lead"><span class="fr">La même approche s'étend aux autres disciplines de la construction ; nous les développons déjà.</span><span class="en">The same approach extends to the other construction trades; we are already developing them.</span></p>
+      <div class="kicker"><span class="fr">D'autres disciplines</span><span class="en">Other trades</span></div>
+      <h2><span class="fr">La même approche, d'autres plans.</span><span class="en">The same approach, other drawings.</span></h2>
+      <p class="lead"><span class="fr">Électricité, ventilation, vitrerie… Nous les développons déjà.</span><span class="en">Electrical, ventilation, glazing… We are already developing them.</span></p>
     </div>
     <ul class="disc">
       <li class="on reveal">
@@ -290,7 +342,7 @@
       <li class="reveal">
         <div class="di" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#bac5cd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3L5 13.5h6L10 21l8-10.5h-6L13 3z"/></svg></div>
         <h3><span class="fr">Électricité</span><span class="en">Electrical</span></h3>
-        <p><span class="fr">Circuits, appareils et chemins de câbles.</span><span class="en">Circuits, devices and cable trays.</span></p>
+        <p><span class="fr">Symboles, circuits et chemins de câbles.</span><span class="en">Symbols, circuits and cable trays.</span></p>
         <span class="chip dev"><span class="fr">En développement</span><span class="en">In development</span></span>
       </li>
       <li class="reveal">
@@ -302,23 +354,23 @@
       <li class="reveal">
         <div class="di" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#bac5cd" stroke-width="1.8" stroke-linejoin="round"><rect x="4" y="3.5" width="16" height="17" rx="1.5"/><path d="M12 3.5v17M4 12h16"/><path d="M7 8l2-2" stroke-linecap="round"/></svg></div>
         <h3><span class="fr">Vitrerie</span><span class="en">Glazing</span></h3>
-        <p><span class="fr">Fenêtres, murs-rideaux et vitrages.</span><span class="en">Windows, curtain walls and glazing.</span></p>
+        <p><span class="fr">Fenêtres, murs-rideaux et panneaux.</span><span class="en">Windows, curtain walls and panels.</span></p>
         <span class="chip dev"><span class="fr">En développement</span><span class="en">In development</span></span>
       </li>
     </ul>
   </div>
 </section>
 
-<!-- YOUR FIELD -->
-<section id="field" class="band">
+<!-- 8. YOUR FIELD -->
+<section id="field">
   <div class="wrap">
     <div class="head center reveal">
       <div class="kicker"><span class="fr">Votre domaine</span><span class="en">Your field</span></div>
-      <h2><span class="fr">Et Estimé s'adapte à votre domaine.</span><span class="en">And Estimate adapts to your field.</span></h2>
-      <p class="lead"><span class="fr">Nous adaptons la méthodologie de l'IA à vos documents, pour produire vos livrables.</span><span class="en">We adapt the AI methodology to your documents, to produce your deliverables.</span></p>
+      <h2><span class="fr">Vos documents. Vos livrables.</span><span class="en">Your documents. Your deliverables.</span></h2>
+      <p class="lead"><span class="fr">Et Estimé s'adapte à votre domaine : nous adaptons la méthodologie de l'IA à vos documents, pour produire vos livrables.</span><span class="en">And Estimate adapts to your field: we adapt the AI methodology to your documents, to produce your deliverables.</span></p>
     </div>
     <div class="field-map reveal">
-      <div>
+      <div class="fm-col">
         <h3><span class="fr">Vos documents</span><span class="en">Your documents</span></h3>
         <ul class="tags">
           <li><span class="fr">Plans</span><span class="en">Drawings</span></li>
@@ -327,8 +379,14 @@
           <li><span class="fr">Diagrammes</span><span class="en">Diagrams</span></li>
         </ul>
       </div>
-      <div class="mid" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
-      <div>
+      <div class="fm-arrow" aria-hidden="true"><svg viewBox="0 0 48 24"><path d="M2 12h40M34 5l8 7-8 7"/></svg></div>
+      <div class="fm-core">
+        <span class="bi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></span>
+        <b><span class="fr">Méthodologie IA</span><span class="en">AI methodology</span></b>
+        <span><span class="fr">adaptée à votre domaine</span><span class="en">adapted to your field</span></span>
+      </div>
+      <div class="fm-arrow" aria-hidden="true"><svg viewBox="0 0 48 24"><path d="M2 12h40M34 5l8 7-8 7"/></svg></div>
+      <div class="fm-col">
         <h3><span class="fr">Vos livrables</span><span class="en">Your deliverables</span></h3>
         <ul class="tags out">
           <li><span class="fr">Analyses</span><span class="en">Analyses</span></li>
@@ -342,15 +400,15 @@
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact">
+<!-- 9. CONTACT -->
+<section id="contact" style="padding-top:24px">
   <div class="wrap">
     <div class="contact-box reveal">
       <h2><span class="fr">Vous répondez à des appels d'offres, ou vous analysez une documentation technique complexe ?</span><span class="en">Do you answer tenders, or analyse complex technical documentation?</span></h2>
       <p class="lead"><span class="fr">Contactez-nous : nous adapterons Estimé à vos méthodes.</span><span class="en">Contact us: we will adapt Estimate to your methods.</span></p>
       <div class="actions">
         <a class="btn btn-primary" href="mailto:info@newco-studio.com?subject=Estim%C3%A9" data-i18n="href" data-href-en="mailto:info@newco-studio.com?subject=Estimate"><span class="fr">Écrivez-nous</span><span class="en">Email us</span></a>
-        <a class="btn btn-ghost ext" data-ext="NEWCO_URL" data-ext-path="contact.html" href="mailto:info@newco-studio.com"><span class="fr">Newco Studio</span><span class="en">Newco Studio</span></a>
+        <a class="btn btn-ghost ext" data-ext="NEWCO_URL" data-ext-path="contact.html" href="mailto:info@newco-studio.com">Newco Studio</a>
       </div>
       <p class="mail"><a href="mailto:info@newco-studio.com">info@newco-studio.com</a> · <span class="fr">Bureaux à Québec et au Saguenay</span><span class="en">Offices in Québec City and Saguenay</span></p>
     </div>
@@ -367,6 +425,7 @@
     </a>
     <nav aria-label="Pied de page" data-i18n="aria-label" data-aria-label-en="Footer">
       <a href="#modules">Modules</a>
+      <a href="#example"><span class="fr">Exemple</span><span class="en">Example</span></a>
       <a href="#assistant">Assistant</a>
       <a href="#disciplines">Disciplines</a>
       <a href="#contact">Contact</a>
@@ -374,7 +433,7 @@
   </div>
   <div class="wrap footer-bottom">
     <span><span class="fr">© 2026 Newco Studio. Tous droits réservés.</span><span class="en">© 2026 Newco Studio. All rights reserved.</span></span>
-    <span><span class="fr">Captures : noms de projets et de firmes remplacés ; certaines sur données de démonstration fictives.</span><span class="en">Screenshots: project and firm names replaced; some show fictitious demo data.</span></span>
+    <span><span class="fr">Captures de l'exemple plomberie : noms de projets et de firmes remplacés ; certaines sur données de démonstration fictives.</span><span class="en">Plumbing example screenshots: project and firm names replaced; some show fictitious demo data.</span></span>
   </div>
 </footer>
 

@@ -1,8 +1,9 @@
 # Estimé website
 
-The product site of Estimé (EN: Estimate), Newco Studio's tender-analysis app: the explainer video, the four modules
-(takeoff, specification analysis, pricing, bid), the knowledge base, the assistant, the disciplines, adapting Estimé to
-your field, and a contact call to action. Static HTML, CSS and JavaScript in the app's dark theme, bilingual (French by
+The product site of Estimé (EN: Estimate), Newco Studio's app for the automatic analysis of tender packages and
+technical documentation. It follows the explainer video: the promise (several days to a few hours), the video, the four
+modules on a knowledge base, plumbing as the first worked example, the assistant, your experts, the other trades,
+adapting Estimé to your field, and a contact call to action. Static HTML, CSS and JavaScript in the app's dark theme, bilingual (French by
 default, English), served by GitHub Pages.
 
 The Newco Studio site is a separate, independent repository (`newco-studio/newco-studio.github.io`). The two sites
@@ -12,7 +13,7 @@ share no files; the only link between them is one outbound link each way, set in
 
 | File | What |
 |---|---|
-| `index.html` | The whole product page, in sections: hero, video, modules, knowledge base, assistant, disciplines, your field, contact |
+| `index.html` | The whole product page, in sections: hero, video, how it works (`#modules`), plumbing example (`#example`), assistant, experts, disciplines, your field, contact |
 | `404.html` | Page not found |
 
 ## Structure
@@ -43,9 +44,12 @@ and push; no code change. Keep each file under GitHub's 100 MB limit (prefer und
 
 ## Images
 
-`images/shots/` holds screenshots of the app in French and English: most are from a real tender package whose project,
-firm and people names were replaced; a few (the dark workspace, the bid summary) show fictitious demo data. Never add a
-screenshot that shows a real client, project or person. Screenshots open full size on click.
+`images/shots/` holds screenshots of the app in French and English, all from the plumbing example and labelled as such
+on the page: most are from a real tender package whose project, firm and people names were replaced; a few (the dark
+workspace used as the video poster, the bid summary) show fictitious demo data. Never add a screenshot that shows a real
+client, project or person, and never show a trade that is still in development with a screenshot. Screenshots open full
+size on click. The hero, module overview and "your field" diagrams are HTML and inline SVG. `og-image.jpg` (1200×630)
+is rendered from HTML: wordmark, promise and the four modules, with no screenshot.
 
 ## Local preview
 
